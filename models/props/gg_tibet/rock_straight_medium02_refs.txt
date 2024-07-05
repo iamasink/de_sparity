@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\gg_tibet\cs_tibet_stone_06a.vmt"
+}

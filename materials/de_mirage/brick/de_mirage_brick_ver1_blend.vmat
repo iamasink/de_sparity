@@ -1,0 +1,36 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/de_mirage/brick/brick_ver1_diffuse_color.tga"
+	"TextureLayer1Normal"		"materials/de_mirage/brick/brick_ver1_a_normal.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureLayer2Color"		"materials/de_mirage/ground/ground_tilef_diffuse_color.tga"
+	"TextureLayer2Normal"		"materials/de_mirage/ground/ground_tilef_normals_normal.tga"
+	"TextureLayer2Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer2AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureBlendModulation"		"materials/de_mirage/brick/brick_ver1_blend.tga"
+	"F_LAYERS"		"1"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"g_vLayer2Tint"		"[1.000000 1.000000 1.000000]"
+	"F_FANCY_BLENDING"		"1"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"rock"
+		"PhysicsSurfaceProperties2"		"sand"
+	}
+	"legacy_import"
+	{
+		"WorldVertexTransition"
+		{
+			"$basetexture"		"de_mirage/brick/brick_ver1_diffuse"
+			"$blendmodulatetexture"		"de_mirage/brick/brick_ver1_blend"
+			"$basetexture2"		"de_mirage/ground/ground_tilef_diffuse"
+			"$bumpmap"		"de_mirage/brick/brick_ver1_a_normal"
+			"$bumpmap2"		"de_mirage/ground/ground_tilef_normals"
+			"$surfaceprop"		"rock"
+			"$surfaceprop2"		"sand"
+		}
+	}
+}

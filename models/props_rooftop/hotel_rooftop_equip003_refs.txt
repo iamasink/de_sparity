@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_rooftop\hotel_rooftop_equip001.vmt"
+}

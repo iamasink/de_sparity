@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_overpass\overpass_billboard_color.vmt"
+}

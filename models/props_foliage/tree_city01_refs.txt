@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props_foliage\trees_city.vmt"
+	"file"	"materials\models\props_foliage\branch_city.vmt"
+}

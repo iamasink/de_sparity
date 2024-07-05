@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_vertigo\blackleather.vmt"
+	"file"	"materials\models\props\de_vertigo\wood_pallet_01.vmt"
+	"file"	"materials\models\props\de_vertigo\pallet_barrel_water01.vmt"
+}

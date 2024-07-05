@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_inferno\railing01.vmt"
+	"file"	"materials\models\props\de_inferno\railing01a.vmt"
+}

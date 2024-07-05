@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\props_gameplay\bomb_sign_a.vmt"
+}

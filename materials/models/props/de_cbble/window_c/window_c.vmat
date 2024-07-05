@@ -1,0 +1,23 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_cbble/window_c/window_c_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureDetail"		"materials/detail/noise_detail_01_detail.tga"
+	"g_vDetailTexCoordScale"		"[8.000000 8.000000]"
+	"g_flDetailBlendFactor"		"0.500000"
+	"F_DETAIL_TEXTURE"		"1"
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$basetexture"		"models\props\de_cbble\window_c\window_c.vtf"
+			"$detail"		"detail\noise_detail_01"
+			"$detailscale"		"[ 8 8 ]"
+			"$detailblendfactor"		"0.500000"
+		}
+	}
+}

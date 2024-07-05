@@ -1,0 +1,48 @@
+"Layer0"
+{
+	"Shader"		"csgo_water.vfx"
+	"TextureNormal"		"materials/mine/causticbumpmap_normal.mks"
+	"F_ANIMATED_NORMALS"		"1"
+	"g_vReflectionTint"		"[5.000000 8.000000 12.000000]"
+	"g_flReflectionAmount"		"10.000000"
+	"g_flRefractionAmount"		"1.000000"
+	"g_vWaterFogColor"		"[0.196078 0.313726 0.470588]"
+	"F_FRESNEL"		"1"
+	"g_flWaterDepth"		"74.000000"
+	"g_flWaterStart"		"32.000000"
+	"Attributes"
+	{
+		"mapbuilder.nonsolid"		"1"
+		"mapbuilder.water"		"1"
+	}
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"glass"
+	}
+	"legacy_import"
+	{
+		"Water"
+		{
+			"%compilewater"		"1"
+			"%tooltexture"		"dev/water_normal"
+			"$surfaceprop"		"glass"
+			"$abovewater"		"1"
+			"$translucent"		"1"
+			"$forceexpensive"		"1"
+			"$reflect2dskybox"		"1"
+			"$normalmap"		"MINE/causticbumpmap"
+			"$reflecttexture"		"_rt_WaterReflection"
+			"$refracttexture"		"_rt_WaterRefraction"
+			"$refract"		"1"
+			"$reflectamount"		"10"
+			"$refractamount"		"1"
+			"$reflecttint"		"[5 8 12]"
+			"$fogenable"		"1"
+			"$fogcolor"		"{50 80 120}"
+			"$fogstart"		"32"
+			"$fogend"		"74"
+			"gameconsole?$pseudotranslucent"		"1"
+			"gameconsole?$waterblendfactor"		"0.500000"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/metal/baggage_ibeam_color.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"TextureLayer1Detail"		"materials/detail/dt_metalgalv_color.tga"
+	"g_vLayer1DetailScale"		"[4.000000 8.000000]"
+	"g_vLayer1DetailTintAndBlend"		"[1.000000 1.000000 1.000000 1.000000]"
+	"F_DETAILTEXTURE"		"1"
+	"F_DETAILBLENDMODE"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"Metal"
+	}
+	"legacy_import"
+	{
+		"LightmappedGeneric"
+		{
+			"$basetexture"		"metal/baggage_ibeam"
+			"$surfaceprop"		"Metal"
+			"$detail"		"detail\dt_metalgalv"
+			"$detailscale"		"[ 4 8 ]"
+			"$detailblendfactor"		"1"
+			"$detailblendmode"		"0"
+		}
+	}
+}

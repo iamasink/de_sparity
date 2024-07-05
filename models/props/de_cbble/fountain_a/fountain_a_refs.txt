@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_cbble\fountain_a\fountain_a.vmt"
+}

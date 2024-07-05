@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_underground\underground_door_dynamic.vmt"
+}

@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\cs_italy\mkt_container3a.vmt"
+	"file"	"materials\models\cs_italy\mkt_container3b.vmt"
+}

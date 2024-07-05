@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\cs_office\snowmanc.vmt"
+	"file"	"materials\models\props\cs_office\snowmanb.vmt"
+}

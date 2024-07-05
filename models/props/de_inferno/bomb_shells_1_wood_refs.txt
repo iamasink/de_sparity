@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_inferno\ammo_pallet01.vmt"
+}

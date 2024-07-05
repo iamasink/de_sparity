@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_mall\cash_register.vmt"
+}

@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_cbble\dist_mountain_a\dist_mountain_a.vmt"
+}

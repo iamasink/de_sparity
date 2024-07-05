@@ -1,0 +1,7 @@
+importfilelist
+{
+	"file"	"materials\models\props_c17\awning001a.vmt"
+	"file"	"materials\models\props_c17\awning001b.vmt"
+	"file"	"materials\models\props_c17\awning001c.vmt"
+	"file"	"materials\models\props_c17\awning001d.vmt"
+}

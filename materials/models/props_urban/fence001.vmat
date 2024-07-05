@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props_urban/fence001_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureTranslucency"		"materials/models/props_urban/fence001_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.300000"
+	"F_RENDER_BACKFACES"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"chainlink"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$baseTexture"		"models/props_urban/fence001.vtf"
+			"$nocull"		"1"
+			"$AlphaTest"		"1"
+			"$AlphaTestReference"		"0.300000"
+			"$Translucent"		"1"
+			"$FlashlightNoLambert"		"1"
+			"$nodecal"		"1"
+			"$surfaceprop"		"chainlink"
+			"$DISABLECSMLOOKUP"		"1"
+		}
+	}
+}

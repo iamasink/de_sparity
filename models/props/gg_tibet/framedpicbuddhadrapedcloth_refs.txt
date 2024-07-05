@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\gg_tibet\interiorsmisc.vmt"
+	"file"	"materials\models\props\gg_tibet\interiorsclothdecor.vmt"
+}

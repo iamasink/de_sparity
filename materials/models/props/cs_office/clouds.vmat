@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_unlitgeneric.vfx"
+	"F_UNLIT"		"1"
+	"TextureColor"		"materials/models/props/cs_office/clouds_color.tga"
+	"TextureTranslucency"		"materials/models/props/cs_office/clouds_trans.tga"
+	"F_BLEND_MODE"		"1"
+	"DynamicParams"
+	{
+		"g_vTexCoordOffset"		"frac( float2( 0.017, 0.010 ) * time() )"
+	}
+	"g_bFogEnabled"		"0"
+	"legacy_import"
+	{
+		"UnlitGeneric"
+		{
+			"$basetexture"		"models\props\cs_office\clouds"
+			"$translucent"		"1"
+			"$model"		"1"
+			"$nofog"		"1"
+			"Proxies"
+			{
+				"TextureScroll"
+				{
+					"texturescrollvar"		"$baseTextureTransform"
+					"texturescrollrate"		"0.020000"
+					"texturescrollangle"		"30.000000"
+				}
+			}
+		}
+	}
+}

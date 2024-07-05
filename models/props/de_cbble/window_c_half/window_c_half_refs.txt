@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_cbble\window_c\window_c.vmt"
+}

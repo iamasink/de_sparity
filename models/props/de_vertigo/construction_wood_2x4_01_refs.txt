@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_vertigo\construction_wood_2x4_pile01.vmt"
+}

@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_overpass/overpass_billboard_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_overpass/overpass_billboard_mask_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureDetail"		"materials/detail/noise_detail_01_detail.tga"
+	"g_vDetailTexCoordScale"		"[4.000000 4.000000]"
+	"g_flDetailBlendFactor"		"0.200000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$baseTexture"		"models/props/de_overpass/overpass_billboard_color"
+			"$surfaceprop"		"metal"
+			"$detail"		"detail\noise_detail_01"
+			"$detailscale"		"[ 4 4 ]"
+			"$detailblendfactor"		"0.200000"
+			"$envmap"		"env_cubemap"
+			"$envmapmask"		"models/props/de_overpass/overpass_billboard_mask"
+			"$envmapcontrast"		"1.100000"
+		}
+	}
+}

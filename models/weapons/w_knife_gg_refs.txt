@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\weapons\w_models\w_knife_t\gg\knife_t.vmt"
+	"file"	"materials\models\weapons\w_models\w_knife_ct\gg\knife_ct.vmt"
+}

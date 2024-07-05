@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_dust\dust_food_crates.vmt"
+}

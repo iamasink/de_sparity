@@ -1,0 +1,24 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/gg_tibet/townrooftopoverhang_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureTintMask"		"materials/models/props/gg_tibet/townrooftopoverhang_tintmask.tga"
+	"F_TINT_MASK"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"concrete"
+	}
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$basetexture"		"models/props/gg_Tibet/townrooftopoverhang"
+			"$surfaceprop"		"concrete"
+			"$blendtintbybasealpha"		"1"
+		}
+	}
+}

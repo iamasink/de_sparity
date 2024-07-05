@@ -1,0 +1,41 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/nature/ground_grass03_color.tga"
+	"TextureLayer1Normal"		"materials/concrete/pavement_height-ssbump_normal.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureLayer2Color"		"materials/nature/dirt02_color.tga"
+	"TextureLayer2Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer2AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureBlendModulation"		"materials/nature/blend_texture_01_blend.tga"
+	"F_LAYERS"		"1"
+	"g_vLayer1NormalTexCoordCenter"		"[0.750000 0.750000]"
+	"g_vLayer1NormalTexCoordScale"		"[0.400000 0.400000]"
+	"g_flLayer1NormalTexCoordRotation"		"0.000000"
+	"g_vLayer1NormalTexCoordOffset"		"[0.000000 0.000000]"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"g_vLayer2Tint"		"[1.000000 1.000000 1.000000]"
+	"F_FANCY_BLENDING"		"1"
+	"F_TEXTURETRANSFORMS"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"grass"
+		"PhysicsSurfaceProperties2"		"dirt"
+	}
+	"legacy_import"
+	{
+		"WorldVertexTransition"
+		{
+			"$basetexture"		"nature/ground_grass03"
+			"$basetexture2"		"nature/dirt02"
+			"$bumptransform"		"center .75 .75 scale .4 .4 rotate 0 translate 0 0"
+			"$bumpmap"		"concrete/pavement_height-ssbump"
+			"$ssbump"		"1"
+			"$SSBumpMathFix"		"1"
+			"$blendmodulatetexture"		"nature/blend_texture_01"
+			"$surfaceprop"		"grass"
+			"$surfaceprop2"		"dirt"
+		}
+	}
+}

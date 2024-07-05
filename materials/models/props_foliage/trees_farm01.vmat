@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props_foliage/trees_farm01_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$vertexfog"		"1"
+			"$treeSway"		"1"
+			"$treeSwayHeight"		"450"
+			"$treeSwayStartHeight"		"0.500000"
+			"$treeSwayRadius"		"450"
+			"$treeSwayStartRadius"		"0.250000"
+			"$treeSwaySpeed"		"0.500000"
+			"$treeSwayStrength"		"2"
+			"$treeSwayScrumbleSpeed"		"1.100000"
+			"$treeSwayScrumbleStrength"		"0.700000"
+			"$treeSwayScrumbleFrequency"		"17"
+			"$treeSwayFalloffExp"		"1.500000"
+			"$treeSwayScrumbleFalloffExp"		"3"
+			"$treeSwaySpeedHighWindMultiplier"		"0.700000"
+			"$treeSwaySpeedLerpStart"		"2.000000"
+			"$treeSwaySpeedLerpEnd"		"10.000000"
+			"$baseTexture"		"models\props_foliage\Trees_farm01"
+		}
+	}
+}

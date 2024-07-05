@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_misc\basket-1.vmt"
+}

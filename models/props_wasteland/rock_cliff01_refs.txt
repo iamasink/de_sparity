@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_foliage\trees_farm01.vmt"
+}

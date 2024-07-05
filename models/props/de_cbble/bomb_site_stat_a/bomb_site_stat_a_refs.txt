@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_cbble\bomb_site_stat_a\bomb_site_stat_a.vmt"
+}

@@ -1,0 +1,33 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/effects/urban_puddle01a_color.tga"
+	"TextureNormal"		"materials/models/effects/urban_puddle01a_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"0.500000"
+	"TextureRoughness"		"materials/models/effects/urban_puddle01a_normal_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureTranslucency"		"materials/models/effects/urban_puddle01a_trans.tga"
+	"F_TRANSLUCENT"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"puddle"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\effects\urban_puddle01a"
+			"$translucent"		"1"
+			"$ALPHATESTREFERENCE"		"0.800000"
+			"$envmap"		"env_cubemap"
+			"$normalmapalphaenvmapmask"		"1"
+			"$bumpmap"		"models\effects\urban_puddle01a_normal"
+			"$envmapcontrast"		".5 .5 .5"
+			"$fresnelreflection"		"0.030000"
+			"$surfaceprop"		"puddle"
+			"$envmaptint"		"[ .5 .5 .5 ]"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_inferno/wall_lamp_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_inferno/wall_lamp_ref_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureTranslucency"		"materials/models/props/de_inferno/wall_lamp_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.500000"
+	"F_RENDER_BACKFACES"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\de_inferno\wall_lamp"
+			"$alphatest"		"1"
+			"$nocull"		"1"
+			"$envmap"		"env_cubemap"
+			"$envmapmask"		"models\props\de_inferno\wall_lamp_ref"
+		}
+	}
+}

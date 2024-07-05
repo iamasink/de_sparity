@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\weapons\w_models\w_knife_falchion_advanced\knife_falchion_advanced.vmt"
+}

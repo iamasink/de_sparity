@@ -1,0 +1,39 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/concrete/tunnel_concretewall_01b_color.tga"
+	"TextureLayer1Normal"		"materials/concrete/tunnel_concretewall_01a_height-ssbump_normal.tga"
+	"g_flCubeMapScalar"		"0.050000"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureLayer1Roughness"		"[0.817125 0.817125 0.817125 1.000000]"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"TextureLayer1Detail"		"materials/detail/dt_conc_color.tga"
+	"g_vLayer1DetailScale"		"[10.000000 10.000000]"
+	"g_vLayer1DetailTintAndBlend"		"[1.000000 1.000000 1.000000 0.700000]"
+	"F_DETAILTEXTURE"		"1"
+	"F_DETAILBLENDMODE"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"concrete"
+	}
+	"legacy_import"
+	{
+		"LightmappedGeneric"
+		{
+			"$basetexture"		"Concrete/tunnel_concretewall_01b"
+			"$surfaceprop"		"concrete"
+			"$ssbump"		"1"
+			"$bumpmap"		"Concrete/tunnel_concretewall_01a_height-ssbump"
+			"$detail"		"detail\dt_conc"
+			"$detailscale"		"10"
+			"$detailblendfactor"		"0.700000"
+			"$detailblendmode"		"0"
+			"$envmap"		"env_cubemap"
+			"$envmaptint"		"[ .05 .05.05 ]"
+			"%keywords"		"c17sewers,wasteland"
+		}
+	}
+}

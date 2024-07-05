@@ -1,0 +1,353 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc36:version{972dada4-b828-45a4-bb93-7795cf0585da} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+				primary_root_bone = ""
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "weapon_hand_l"
+								weight = 1.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "bodygroup_preset"
+						game_keys = 
+						{
+							name = "dropped"
+							bodygroup_name_0 = "left_knife"
+							bodygroup_choice_0 = 0
+							bodygroup_name_1 = ""
+							bodygroup_choice_1 = 0
+							bodygroup_name_2 = ""
+							bodygroup_choice_2 = 0
+							bodygroup_name_3 = ""
+							bodygroup_choice_3 = 0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "bodygroup_preset"
+						game_keys = 
+						{
+							name = "holstered"
+							bodygroup_name_0 = "left_knife"
+							bodygroup_choice_0 = 1
+							bodygroup_name_1 = ""
+							bodygroup_choice_1 = 0
+							bodygroup_name_2 = ""
+							bodygroup_choice_2 = 0
+							bodygroup_name_3 = ""
+							bodygroup_choice_3 = 0
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Metal.Small"
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							"dmg.bullets" = -1.0
+							"dmg.club" = -1.0
+							"dmg.explosive" = -1.0
+							"dmg.fire" = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "weapon_hand_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "weapon_holster_center"
+								origin = [ 1.537147, 0.0, -1.014163 ]
+								angles = [ -14.999976, 0.0, -10.000004 ]
+								do_not_discard = false
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = false
+					},
+					{
+						_class = "Bone"
+						name = "weapon_hand_l"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = false
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "studio"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"w_knife_push_dropped_bg_studio_lod0",
+								]
+							},
+						]
+						hidden_in_tools = false
+						non_bodygroup_single_choice = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "left_knife"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"w_knife_push_dropped_bg_left_knife_sm0_lod0",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+						non_bodygroup_single_choice = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = ""
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "w_knife_push_0_mesh"
+						parent_bone = ""
+						surface_prop = "weapon"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/w_knife_push_dropped_refs/phys/w_knife_push_dropped_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_knife_push_0_mesh",
+							]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "__illumPosition"
+						parent_bone = "weapon_holster_center"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.000001, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "weapon_holster_center"
+						parent_bone = "weapon_holster_center"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 60.0, 0.000001, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "weapon_hand_R"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_hand_r"
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.6, -2.6, -6.9 ]
+								hitbox_maxs = [ 2.9, 2.1, 11.2 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "w_knife_push_dropped_bg_studio_lod0"
+						filename = "/models/weapons/w_knife_push_dropped_refs/mesh/w_knife_push_dropped_bg_studio_lod0.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "w_knife_push_dropped_bg_left_knife_sm0_lod0"
+						filename = "/models/weapons/w_knife_push_dropped_refs/mesh/w_knife_push_dropped_bg_left_knife_sm0_lod0.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "dropped"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/weapons/w_knife_push_dropped_refs/anim/_dropped_0.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@dropped_0"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/weapons/w_knife_push_dropped_refs/anim/_dropped_0.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 0
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props_rooftop\billboard01_main.vmt"
+	"file"	"materials\models\props_rooftop\billboard01_supports.vmt"
+}

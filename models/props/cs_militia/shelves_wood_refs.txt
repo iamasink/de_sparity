@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\cs_militia\shelves_wood.vmt"
+}

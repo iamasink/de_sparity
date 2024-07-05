@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_foliage\mall_trees_branches01.vmt"
+}

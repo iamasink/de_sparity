@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/nature/vostok_snow_color.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureLayer2Color"		"materials/gg_tibet/cs_tibet_stone_10_color.tga"
+	"TextureLayer2Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer2AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureBlendModulation"		"materials/nature/tibet_blendmod_snow_rock_blend.tga"
+	"F_LAYERS"		"1"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"g_vLayer2Tint"		"[1.000000 1.000000 1.000000]"
+	"F_FANCY_BLENDING"		"1"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"snow"
+		"PhysicsSurfaceProperties2"		"concrete"
+	}
+	"legacy_import"
+	{
+		"WorldVertexTransition"
+		{
+			"$basetexture"		"nature/vostok_snow"
+			"$basetexture2"		"gg_tibet/cs_tibet_stone_10"
+			"$blendmodulatetexture"		"nature/tibet_blendmod_snow_rock"
+			"$surfaceprop"		"snow"
+			"$surfaceprop2"		"concrete"
+		}
+	}
+}

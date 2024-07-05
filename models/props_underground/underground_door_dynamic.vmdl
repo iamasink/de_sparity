@@ -1,0 +1,581 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc36:version{972dada4-b828-45a4-bb93-7795cf0585da} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+				primary_root_bone = ""
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "underground_door_root"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "underground_door_root"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "door_rotate"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "push_bar"
+										origin = [ 24.0, 51.0, 3.749999 ]
+										angles = [ -0.0, 0.0, 0.0 ]
+										do_not_discard = false
+									},
+								]
+								origin = [ -24.0, 0.0, -1.0 ]
+								angles = [ -0.0, 0.0, 0.0 ]
+								do_not_discard = false
+							},
+							{
+								_class = "Bone"
+								name = "ik_01"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "ik_02"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "ik_03"
+												origin = [ 13.405682, -0.000008, -0.0 ]
+												angles = [ -79.518631, -0.000006, 0.000008 ]
+												do_not_discard = false
+											},
+										]
+										origin = [ 13.507806, 0.000008, 0.0 ]
+										angles = [ 46.804638, 179.999985, -179.999985 ]
+										do_not_discard = false
+									},
+								]
+								origin = [ -14.096172, 106.72448, 3.72861 ]
+								angles = [ -53.676731, 0.000006, -0.000004 ]
+								do_not_discard = false
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = false
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "underground_door_root"
+						mass_override = 147.470322
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = "door_rotate"
+						mass_override = 383.549225
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointWeld"
+						parent_body = "underground_door_root"
+						child_body = "door_rotate"
+						anchor_origin = [ -24.0, 0.0, -1.0 ]
+						anchor_angles = [ -0.0, 0.0, 0.0 ]
+						collision_enabled = false
+						linear_freqeuncy = 0.0
+						linear_damping_ratio = 0.0
+						max_force = 0.0
+						angular_frequency = 0.0
+						angular_damping_ratio = 0.0
+						max_torque = 0.0
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "underground_door_root_0_mesh"
+						parent_bone = "underground_door_root"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props_underground/underground_door_dynamic_refs/phys/underground_door_dynamic_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"underground_door_root_0_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "underground_door_root_1_mesh"
+						parent_bone = "underground_door_root"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props_underground/underground_door_dynamic_refs/phys/underground_door_dynamic_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"underground_door_root_1_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "underground_door_root_2_mesh"
+						parent_bone = "underground_door_root"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props_underground/underground_door_dynamic_refs/phys/underground_door_dynamic_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"underground_door_root_2_mesh",
+							]
+						}
+					},
+					{
+						_class = "PhysicsHullFile"
+						name = "door_rotate_0_mesh"
+						parent_bone = "door_rotate"
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/props_underground/underground_door_dynamic_refs/phys/underground_door_dynamic_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"door_rotate_0_mesh",
+							]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "underground_door_root"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -28.0, -0.000002, -1.5 ]
+								hitbox_maxs = [ 28.0, 113.0, 5.3125 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "door_rotate"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.0, -0.000001, -0.34375 ]
+								hitbox_maxs = [ 48.0, 108.000008, 5.0 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "ik_01"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.786263, -0.568231, -0.793601 ]
+								hitbox_maxs = [ 14.381231, 0.931777, 0.854994 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "push_bar"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -21.0, -2.384232, -1.0 ]
+								hitbox_maxs = [ 21.000002, 1.511719, 3.866198 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "underground_door_dynamic_bg_default_lod0"
+						filename = "/models/props_underground/underground_door_dynamic_refs/mesh/underground_door_dynamic_bg_default_lod0.dmx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "bindpose"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_bindpose_0.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "open"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = "World.UndergroundPushBarOpen"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = null
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_open_1.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "open_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_open_idle_2.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_close_idle_3.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "close"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = "World.UndergroundPushBarClose"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = null
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_close_4.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@bindpose_0"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_bindpose_0.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 0
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@open_1"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_open_1.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 49
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@open_idle_2"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_open_idle_2.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 0
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@close_idle_3"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_close_idle_3.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 0
+						framerate = 24.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@close_4"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/props_underground/underground_door_dynamic_refs/anim/_close_4.dmx"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 25
+						framerate = 24.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

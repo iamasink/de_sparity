@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_cbble\debris_stone_a\debris_stone_a.vmt"
+}

@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_cbble\corner_trim_a\brick_a_corner_stone.vmt"
+}

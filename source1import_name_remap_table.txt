@@ -1,0 +1,7 @@
+"name_remap_table"
+{
+	"src2filenamechange"
+	{
+		"maps\de_sparity_custom_prefab.vmap"		"maps\de_sparity_custom.vmf"
+	}
+}

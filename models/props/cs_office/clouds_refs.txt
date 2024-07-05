@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\cs_office\clouds.vmt"
+	"file"	"materials\models\props\cs_office\clouds2.vmt"
+}
