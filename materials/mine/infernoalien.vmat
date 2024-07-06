@@ -1,48 +1,105 @@
-"Layer0"
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
 {
-	"Shader"		"csgo_water.vfx"
-	"TextureNormal"		"materials/mine/causticbumpmap_normal.mks"
-	"F_ANIMATED_NORMALS"		"1"
-	"g_vReflectionTint"		"[5.000000 8.000000 12.000000]"
-	"g_flReflectionAmount"		"10.000000"
-	"g_flRefractionAmount"		"1.000000"
-	"g_vWaterFogColor"		"[0.196078 0.313726 0.470588]"
-	"F_FRESNEL"		"1"
-	"g_flWaterDepth"		"74.000000"
-	"g_flWaterStart"		"32.000000"
-	"Attributes"
+	shader "csgo_water.vfx"
+
+	//---- Flow ----
+	F_ANIMATED_NORMALS 1
+
+	//---- Reflection ----
+	F_REFLECTION_TYPE 1 // Environment Cube Map
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/default/default_color.tga"
+
+	//---- Environment Cube Map ----
+	g_flGlossiness "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Normal Map ----
+	g_flBumpStrength "1.000"
+	g_flNormalMapAnimationTimeOffset "0.000"
+	g_flNormalMapAnimationTimePerFrame "10.000"
+	g_flNormalTexCoordRotation "0.000"
+	g_vExtraTexCoordScroll "[0.000 0.000 0.000 0.000]"
+	g_vNormalTexCoordOffset "[0.000 0.000]"
+	g_vNormalTexCoordScale "[1.000 1.000]"
+	TextureNormal "materials/mine/causticbumpmap_normal000.tga"
+
+	//---- Reflections ----
+	g_flReflectance "0.200"
+
+	//---- Refractions ----
+	g_flRefractionAmount "1.000"
+	g_flWaterDepth "74.000"
+	g_flWaterStart "32.000"
+	g_vRefractionTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vWaterFogColor "[0.196078 0.313726 0.470588 0.000000]"
+
+	//---- Specular ----
+	g_flReflectionPower "1.000"
+	g_vReflectionColor "[1.000000 1.000000 1.000000 0.000000]"
+	g_vReflectionDir "[0.000 0.000 1.000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	Attributes
 	{
-		"mapbuilder.nonsolid"		"1"
-		"mapbuilder.water"		"1"
+		mapbuilder.nonsolid "1"
+		mapbuilder.water "1"
 	}
-	"SystemAttributes"
+
+	SystemAttributes
 	{
-		"PhysicsSurfaceProperties"		"glass"
+		PhysicsSurfaceProperties "glass"
 	}
-	"legacy_import"
+
+	UnusedVariables
 	{
-		"Water"
+		"g_flReflectionAmount" "1"
+		"g_vReflectionTint" "[1.000000 1.000000 1.000000 0.000000]"
+	}
+
+
+	VariableState
+	{
+		"Color"
 		{
-			"%compilewater"		"1"
-			"%tooltexture"		"dev/water_normal"
-			"$surfaceprop"		"glass"
-			"$abovewater"		"1"
-			"$translucent"		"1"
-			"$forceexpensive"		"1"
-			"$reflect2dskybox"		"1"
-			"$normalmap"		"MINE/causticbumpmap"
-			"$reflecttexture"		"_rt_WaterReflection"
-			"$refracttexture"		"_rt_WaterRefraction"
-			"$refract"		"1"
-			"$reflectamount"		"10"
-			"$refractamount"		"1"
-			"$reflecttint"		"[5 8 12]"
-			"$fogenable"		"1"
-			"$fogcolor"		"{50 80 120}"
-			"$fogstart"		"32"
-			"$fogend"		"74"
-			"gameconsole?$pseudotranslucent"		"1"
-			"gameconsole?$waterblendfactor"		"0.500000"
+		}
+		"Environment Cube Map"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Normal Map"
+		{
+		}
+		"Reflections"
+		{
+		}
+		"Refractions"
+		{
+		}
+		"Specular"
+		{
+		}
+		"Texture Address Mode"
+		{
 		}
 	}
 }
